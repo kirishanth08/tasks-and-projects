@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="nav">
+    <h1>bookshelf</h1>
+</div> 
+<div class="main">
+    <div class="bookcontainer">
+        <h2>harry potter</h2>
+        <h5>jk rowling</h5>
+        <p>harry potter is my favourite book</p>
+        <button onclick="del(event)">delete</button>
+    </div>
+
+    
+
+</div> 
+<div class="popoverlay"></div>   
+<div class="popupbox">
+<h2> add book </h2>
+<form action="https://web.whatsapp.com/">
+    <input type="text" placeholder="book title" id="booktitle">
+    <input type="text" placeholder="book author" id="bookauthor">
+    <textarea placeholder="short description" id="description"></textarea>
+    <button id="addbook">add</button>
+    <button id="cancelbook">cancel</button>
+</form>
+
+</div> 
+<button id="addpop" class="addbut"> + </button> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
